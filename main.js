@@ -6,7 +6,7 @@ function mudaTexto(text) {
 }
 
 function calculaTempo() {
-    var timer = Math.floor(Math.random() * (5000 - 3000 + 1) + 3000);
+    var timer = Math.floor(Math.random() * (75000 - 30000 + 1) + 30000);
     console.log(timer);
 
     setTimeout(function() {
