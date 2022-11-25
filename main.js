@@ -4,7 +4,7 @@ function mudaTexto(text) {
 }
 
 function calculaTempo() {
-    var timer = Math.floor(Math.random() * (75000 - 30000 + 1) + 30000);
+    var timer = Math.floor(Math.random() * (45000 - 7000 + 1) + 7000);
     console.log(timer);
     setTimeout(function() {
         mudaTexto("Time's up!");
